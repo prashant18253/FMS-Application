@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "137276327952",
+    "project_id": "fms-io",
+    "storage_bucket": "fms-io.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137276327952:android:7c73d441d02865a96e2295",
+        "android_client_info": {
+          "package_name": "com.example.fmsio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137276327952-0sobnn60cpjmu0r8pdjk3i7mk9v86u63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fmsio",
+            "certificate_hash": "4b384fd11cf9b3443d6ae0b484c1d3b442004f9e"
+          }
+        },
+        {
+          "client_id": "137276327952-1u0o5a3o1nh59cnfuh63atg7uk6qjg5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAefgTbgvzi5-u5WFe52kqwfm8_FH9GunA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137276327952-1u0o5a3o1nh59cnfuh63atg7uk6qjg5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

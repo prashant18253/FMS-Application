@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="ticket"
+            type="com.example.fmsio.model.Ticket" />
+        <variable
+            name="contract"
+            type="com.example.fmsio.adapterCallBack.admin.fragment.TicketStatusAdapterCallBack" />
+        <import type="com.example.fmsio.utils.DateTimeUtils"/>
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{ticket.name}"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{ticket.hostelName + ` ` + ticket.floorNo + ` Floor, ` + ticket.RoomNo}"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{DateTimeUtils.unixToStandard(ticket.datetime)}"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{ticket.status}"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:onClick="@{() -> contract.onItemClick(ticket)}"/>
+
+    </LinearLayout>
+</layout>

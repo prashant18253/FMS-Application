@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FMS.IO</string>
+    <string-array name="service_types">
+        <item>Choose a service type</item>
+        <item>Room Cleaning</item>
+        <item>Electrical Problems</item>
+        <item>Fans &amp; Lights cleaning</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="building_names">
+        <item>Choose a building</item>
+        <item>Old Boys Hostel</item>
+        <item>Old Girls Hostel</item>
+        <item>H1 Hostel</item>
+        <item>H2 Hostel</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
